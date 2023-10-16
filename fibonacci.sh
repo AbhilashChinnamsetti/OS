@@ -3,6 +3,7 @@ read n
 a=0
 b=1
 count=2
+
 echo "Fibonacci series:"
 echo $a
 echo $b
