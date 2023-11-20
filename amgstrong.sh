@@ -8,7 +8,6 @@ r=0
 n=0
 l=${#x}
 while [ $x -gt 0 ]
-
 do
 r=`expr $x % 10`
 
