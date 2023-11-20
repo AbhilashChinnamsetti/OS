@@ -7,7 +7,6 @@ do
 echo "enter element :$i"
 read arr[i];
 done
-
 echo "the given list of elements"
 echo ${arr[*]}
 
