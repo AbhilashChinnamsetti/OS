@@ -10,7 +10,6 @@ function fact {
          done
          echo $mul
          }
-
 echo "Enter value for n"
 read n
 a=`fact $n`
