@@ -10,7 +10,6 @@ l=${#x}
 while [ $x -gt 0 ]
 do
 r=`expr $x % 10`
-
 n=$(bc <<< "$r^$l")
 
 sum=`expr $sum + $n`
